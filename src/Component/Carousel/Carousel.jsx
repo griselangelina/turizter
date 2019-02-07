@@ -33,7 +33,8 @@ class CarouselFront extends Component {
         <Carousel
           direction={direction}
           onSelect={this.handleSelect}
-          interval={5000}
+          interval={5000} style={{marginTop: `-20px`
+          }}
         >
           <Carousel.Item>
             <img
@@ -58,6 +59,7 @@ class CarouselFront extends Component {
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </Carousel.Caption>
           </Carousel.Item>
+          
          
         </Carousel>
       );
